@@ -3,7 +3,7 @@
 This plugin allows you to automaticaly had watchers by category. A tab on the project menu will be available to configure the watchers
 
 
-== Instalation ==
+== Instalation
 
 Clone or download the project to plugin folder
 (Be sure the folder is named 'redmine_category_watchers')
@@ -12,3 +12,4 @@ rake redmine:plugins:migrate NAME=redmine_category_watchers
 
 Configure the permissions in the 'Roles and Permissions' page (under project)
 
+P.S. I hope, it's work on Redmine ver.4
