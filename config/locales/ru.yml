@@ -1,0 +1,7 @@
+# Russian strings go here for Rails i18n
+ru:
+  category_watchers: "Категории наблюдателей"
+  watchers_saved: "Наблюдатели сохранены"
+  label_default_watchers: "Наблюдатели по умолчанию для категорий проектов"
+  label_watchers: "Наблюдатели"
+  label_multiselection_allowed: "Можно выбирать несколько"
