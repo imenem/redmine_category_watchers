@@ -8,7 +8,7 @@ module RedmineCategoryWatchers
   	# end
 
   	def controller_issues_new_after_save(context)
-  		issue = Issue.find(context[:issue])
+		issue = Issue.find(context[:issue].id)
       auto_watch issue
       issue.save
       
