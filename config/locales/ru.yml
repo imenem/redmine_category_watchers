@@ -4,4 +4,5 @@ ru:
   watchers_saved: "Наблюдатели сохранены"
   label_default_watchers: "Наблюдатели по умолчанию для категорий проектов"
   label_watchers: "Наблюдатели"
-  label_multiselection_allowed: "Можно выбирать несколько"
+  label_multiselection_allowed: "Используйте Ctrl для выбора нескольких наблюдателей"
+  label_current_watchers: "Текущие наблюдатели"
