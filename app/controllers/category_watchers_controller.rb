@@ -1,6 +1,4 @@
 class CategoryWatchersController < ApplicationController
-  unloadable
-
   before_action :authorize_cw, :only => [:add, :index]
 
   def index
