@@ -13,8 +13,10 @@ module RedmineCategoryWatchers
 
       return if cw.nil?
 
-      watchers = cw.watchers.split ','
-      watchers.each do |id|
+      category_watchers = cw.watchers.split(',').map(&:to_i)
+      absent_watchers = category_watchers - issue.watcher_user_ids 
+
+      absent_watchers.each do |id|
         user = User.find(id.to_i)
         issue.add_watcher user
       end
